@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                &nbsp;
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <a href="https://github.com/liamforsey" class="github-button" target="_blank">GitHub</a>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Liam Forsey, 21 Years of age and a passionate web developer with a love for Coding & Creating websites,<br>
+        below you will see some of my projects, how you can get in contact with me, and a little minigame i created for fun!
+        <br>
+
+        below you can see some of my main projects on the home page, clicking on the link below will bring you to my github, <br> which will show my entire code of each project so you can see what i have done.
+        <br>
+        <br>
+        if you have any questions navigate to the bottom where you can send me your name, email, and the question in under the message tab.
+    </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3><a href="https://github.com/LiamForsey/Car/tree/main/Front%20End%20Programming%20Assignment%201">Chevrolet Corvette</a></h3>
+            <p>This is a document targetting a specific make of a chevrolet corvette, on the website there are images, info, youtube video buttons and etc to provide better knowledge on the car itself.</p>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/LiamForsey/Banff-Springs-Golf-Course">Banff Springs Golf Course</a></h3>
+            <p>This is a project my group has created, to mimic a golf course website. you can go on and book a tee time, see the green fees, the membership fees and all about the course.</p>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/LiamForsey/Edgar-Allan-Poe-Wik">Edgar Allan Poe</a></h3>
+            <p>This is more a descriptive page like a wikepedia i created about edgar allan poe, not much creativity to this one its more of a informational providing document/website, not many functions or etc just basic knowledge on the individual.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>If you need to contact me, submit your personal details and I will get back to you!</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        
+        <section id="minigame">
+
+            <h2>Mini-Game: Click the Button!</h2>
+            <p>Click the button as many times as you can in 10 seconds!</p>
+            <button id="click-button">Click Me!</button>
+            <p>Score: <span id="score">0</span></p>
+            <button id="start-game">Start Game</button>
+        
+    </section>
+
+    <footer>
+        <p>&copy;2024 Liam Forsey Portfolio <br> Liam.Forsey@keyin.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
